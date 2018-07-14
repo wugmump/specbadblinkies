@@ -1,4 +1,8 @@
 # specbadblinkies
+
+faderslow_ring: arduino sketch 
+
+
 Ring amounts:
 32
 24
