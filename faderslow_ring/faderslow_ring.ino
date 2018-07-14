@@ -1,3 +1,5 @@
+// Spec's verbose comentary goes here
+
 #include <Adafruit_NeoPixel.h>
 
 #define PIN    0 // signal plugged into port 6
