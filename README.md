@@ -1,4 +1,11 @@
 # specbadblinkies
+
+Required software: Fadecandy server, Processing
+
+Run fc server on command line first
+
+Ring configuration:
+
 Ring amounts:
 32
 24
