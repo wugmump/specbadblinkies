@@ -12,4 +12,4 @@ Ring amounts:
 1
 
 Pin 1: Ring 1, 2
-Pin 2: Ring 3,4,5
+Pin 2: Ring 3,4,5 
