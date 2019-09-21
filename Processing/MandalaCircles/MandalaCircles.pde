@@ -1,5 +1,6 @@
 // MandalaCircles
 // Found at: https://www.openprocessing.org/sketch/133421
+// Runs under Processing
 
 float resolution;
 float radius = 100;

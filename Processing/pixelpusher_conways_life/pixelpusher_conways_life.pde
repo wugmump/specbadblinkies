@@ -5,6 +5,10 @@
  *  If it was you, please let me know and I'll credit you here.  -Jas
  */
 
+// Unknown origin
+// Runs on Processing
+// Super slow to connect to OPC.
+
 OPC opc;
 
 //import processing.core.*;
@@ -32,7 +36,7 @@ void setup() {
   scaleX = width / arrayWidth;
   scaleY = height / arrayHeight;
   
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
   opc.ledGrid(0, 16, 10, width/2, height/2, 10, 10, 0, false, false);
   
   stroke(#000000);

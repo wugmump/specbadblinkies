@@ -1,5 +1,7 @@
 // Nested Loops
 // Found at: https://www.openprocessing.org/sketch/428993
+// Runs under processing
+// Flickers when opc.enableShowLocations = true;
 
 float z = 0; // create variable for noise z
 
@@ -8,7 +10,7 @@ OPC opc;
 void  setup() {
     size(320, 320);
     
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
 
   opc.ledGrid(0, 16, 10, width/2, height/2, 30, 30, 0, false, false);
   opc.enableShowLocations = false;

@@ -1,4 +1,7 @@
 // MODOKI_8.0
+// Runs on Processing *WITHOUT* OPC
+// Crashes hard with "ArrayIndexOutOfBoundsException: -10944"
+// Only when OPC functionality is enabled. Kill process in task manager.
 
 int Nmax = 500 ; int Cmax = 50 ;
 
@@ -18,7 +21,7 @@ void setup(){
   
   size(320,200) ;
   
-  //opc = new OPC(this, "127.0.0.1", 7890);
+  //opc = new OPC(this, "rhubarb.local", 7890);
 
   //opc.ledGrid(0, 16, 10, width/2, height/2, 30, 30, 0, false, false);
   //opc.enableShowLocations = true;

@@ -1,5 +1,6 @@
 //recursionCircles
 // Found at: https://www.openprocessing.org/sketch/195432
+// Not animate, but damn pretty!
 
 float my_num=0;
 void setup(){

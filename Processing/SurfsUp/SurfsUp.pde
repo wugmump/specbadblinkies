@@ -4,6 +4,9 @@
 // Mouse click to reset, mouseX adjusts background clear.
 
 // Found at: https://www.openprocessing.org/sketch/298646
+// Runs under Processing, but crashes hard when OPC is enabled with error:
+// ArrayIndexOutOfBoundsException: -10944
+// Runs under Processingjs
 
 Particle[] particles;
 int particleCount;
@@ -14,7 +17,7 @@ float alpha;
 void setup() {
   size(320, 200);
   
-  //opc = new OPC(this, "127.0.0.1", 7890);
+  //opc = new OPC(this, "rhubarb.local", 7890);
 
   //opc.ledGrid(0, 16, 10, width/2, height/2, 30, 30, 0, false, false);
   //opc.enableShowLocations = true;

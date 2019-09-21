@@ -9,6 +9,8 @@
 // Only boids close to the obstacle are checked. A broad check first (where a collision may be possible)
 // and then a precise line-point intersection check.
 
+// Works on Processing
+
 
 ArrayList<Boid> allBoids;
 int numBoids = 170;
@@ -21,7 +23,7 @@ OPC opc;
 void setup() {
   size(320, 200);
   
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
 
   opc.ledGrid(0, 16, 10, width/2, height/2, 20, 20, 0, false, false);
   opc.enableShowLocations = false;

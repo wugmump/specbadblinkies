@@ -1,5 +1,6 @@
 // Starburst
 // Found at: https://www.openprocessing.org/sketch/186303
+// Works in Processing and Processingjs. P5js untested.
 
 int num = 4000, frames=120;
 float theta;

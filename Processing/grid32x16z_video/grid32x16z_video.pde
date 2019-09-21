@@ -1,3 +1,5 @@
+// Ran on MBP. Missing video library and videos.
+
 import processing.video.*;
 
 //String filename = "/Users/gduncan/Movies/My Movie 9 - Medium.mov";
@@ -18,7 +20,7 @@ void setup()
   size(160, 100, P3D);
 
   // Connect to the local instance of fcserver. You can change this line to connect to another computer's fcserver
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
 
   opc.ledGrid(0, 16, 10, width/2, height/2, 10, 10, 0, false, false);
   movie = new Movie(this, filename);

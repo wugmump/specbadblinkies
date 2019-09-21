@@ -1,5 +1,6 @@
 // BubbleFlame
 // Found at: https://www.openprocessing.org/sketch/153760
+// Runs in Processing, P5js untested
 
 //Where we store all out bubbles.
 ArrayList<Bubble> bubbles;

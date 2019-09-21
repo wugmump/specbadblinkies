@@ -1,5 +1,7 @@
 // Colorful Waves
 // Found at: https://www.openprocessing.org/sketch/100358
+// Runs on Processing
+
 
 Wavy test;
 

@@ -1,4 +1,5 @@
 // Fond at: https://www.openprocessing.org/sketch/218757
+// Runs in Processing and Processingjs
 
 final float PHI = (1 + sqrt(5))/2;  //golden ratio
 ArrayList<Ball> balls;

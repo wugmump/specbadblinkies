@@ -1,3 +1,5 @@
+// Runs under Processing. Tweak to produce more output
+
 class Ring
 {
   float x, y, size, intensity, hue;
@@ -21,7 +23,7 @@ class Ring
   void draw()
   {
     // Particles fade each frame
-    intensity *= 0.95;
+    intensity *= 0.095;
     
     // They grow at a rate based on their intensity
     size += height * intensity * 0.01;
@@ -47,7 +49,7 @@ void setup()
   colorMode(HSB, 100);
   texture = loadImage("ring.png");
 
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
   opc.ledGrid(0, 16, 10, width/2, height/2, 10, 10, 0, false, false);
 
   // We can have up to 100 rings. They all start out invisible.

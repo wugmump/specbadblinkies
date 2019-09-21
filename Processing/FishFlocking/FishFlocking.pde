@@ -38,7 +38,7 @@ void setup ()
 {
   size (160, 100);
 
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
 
   opc.ledGrid(0, 16, 10, width/2, height/2, 10, 10, 0, false, false);
 

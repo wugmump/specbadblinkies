@@ -1,5 +1,6 @@
 // WebOfStars
 // Found at: https://www.openprocessing.org/sketch/147466
+// Runs under Processing and Processingjs
 
 int fc, num = 180, edge = 200;
 ArrayList ballCollection; 

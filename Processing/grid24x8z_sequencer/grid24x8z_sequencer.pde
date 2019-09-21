@@ -2,6 +2,8 @@
  * A simple grid sequencer, launching several effects in rhythm.
  */
 
+// Works on Processing
+
 float BPM = 120;
 int[][] pattern = {
   {0, 0, 0, 0, 0, 1, 0, 0},
@@ -69,7 +71,7 @@ void setup()
   dots = new PImage[] { imgOrangeDot, imgPurpleDot, imgPinkDot, imgGreenDot };
 
   // Connect to the local instance of fcserver. You can change this line to connect to another computer's fcserver
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
 
   opc.ledGrid(0, 16, 10, width/2, height/2, 10, 10, 0, false, false);
   

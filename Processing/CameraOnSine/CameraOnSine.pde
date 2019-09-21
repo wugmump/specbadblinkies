@@ -1,5 +1,6 @@
 // CameraOnSine
 // Found at: https://www.openprocessing.org/sketch/362365
+// Works on Processing
 
 /**
 * camera on sine curve

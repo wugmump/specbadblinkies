@@ -1,4 +1,6 @@
 // foriage_scroll_6.0
+// Works on Processing
+
 
 int Nmax = 300 ; 
 float CX[] = new float[Nmax+1] ; float CY[] = new float[Nmax+1] ; 

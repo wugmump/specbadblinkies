@@ -1,5 +1,6 @@
 // Wheat Wind
 // Found at: https://www.openprocessing.org/sketch/486673
+// Runs under Processing and Processingjs
 
 /*
 author:  lisper <leyapin@gmail.com> 2015

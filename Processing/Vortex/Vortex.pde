@@ -11,6 +11,9 @@ Site:
 */
 
 // Found at: https://www.openprocessing.org/sketch/397004
+// Runs under Processing and Processingjs, however
+// In Processing center origin is in upper left corner, and is 
+// ceneterd in Processingjs.
 
 
 int maxCount = 700;

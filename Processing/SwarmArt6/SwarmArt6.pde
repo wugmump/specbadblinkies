@@ -1,5 +1,6 @@
 // Swarm Art 6
 // Found at: https://www.openprocessing.org/sketch/494768
+// Runs under Processing and Processingjs
 
 //import processing.pdf.*; //import PDF creating library 
 

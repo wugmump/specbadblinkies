@@ -2,6 +2,9 @@
 // Bubbles 2
 //////////////////////////////////
 // copyright: Daniel Erickson 2012
+
+// Runs in Processing
+
 int WIDTH = 800;
 int HEIGHT = 400;
 float ZOOM = 2.0;

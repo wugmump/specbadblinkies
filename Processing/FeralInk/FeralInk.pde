@@ -1,5 +1,6 @@
 // FeralInk
 // Found at: https://www.openprocessing.org/sketch/395420
+// Runs on Processing
 
 // noise, cos, sin, random, line, ellipse, Array, generative
 // Mouse click to re-draw, left for black background, right for white.

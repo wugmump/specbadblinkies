@@ -1,5 +1,6 @@
 // 171028
 // Found at: https://www.openprocessing.org/sketch/467290
+// Runs in Processing and Processingjs, fails P5js
 
 /*
 171028
@@ -22,7 +23,7 @@ OPC opc;
 void setup(){
   size(540,540, P3D);
   
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
 
   opc.ledGrid(0, 16, 10, width/2, height/2, 30, 30, 0, false, false);
   opc.enableShowLocations = true;

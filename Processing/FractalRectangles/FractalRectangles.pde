@@ -1,5 +1,7 @@
 // FractalRectangles
 // Found at: https://www.openprocessing.org/sketch/147828
+// Works on Processing
+
 
 class Osc {
   float angle;

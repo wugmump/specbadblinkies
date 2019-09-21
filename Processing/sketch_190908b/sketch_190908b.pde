@@ -1,3 +1,6 @@
+// Origin unknown
+// Works in Processing, others untested
+
 
 OPC opc;
 
@@ -9,7 +12,7 @@ void setup()
   size(320, 200);
 
   // Connect to the local instance of fcserver. You can change this line to connect to another computer's fcserver
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
   int numPixels = 1936;
 
   // Map an 8x8 grid of LEDs to the center of the window, scaled to take up most of the space

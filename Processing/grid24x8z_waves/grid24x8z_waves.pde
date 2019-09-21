@@ -6,6 +6,8 @@
  * simple UI for doing so, and the actual effect is rendered entirely by a shader.
  */
 
+// RUns on Processing, no obvious output to FC
+
 PShader effect;
 OPC opc;
 
@@ -16,7 +18,7 @@ void setup() {
   effect = loadShader("effect.glsl");
   effect.set("resolution", float(width), float(height));
 
-  opc = new OPC(this, "127.0.0.1", 7890);
+  opc = new OPC(this, "rhubarb.local", 7890);
   float spacing = height / 16.0;
   opc.ledGrid(0, 16, 10, width/2, height/2, 10, 10, 0, false, false);
   
