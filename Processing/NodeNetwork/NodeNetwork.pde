@@ -106,7 +106,7 @@ void setup() {
   
   opc = new OPC(this, "rhubarb.local", 7890);
 
-  opc.ledGrid(0, 16, 16, width/2, height/2, 20, 20, 0, false, false);
+  opc.ledGrid(0, 64, 4, width/2, height/2, 5, 50, 0, false, false);
   opc.enableShowLocations = true;
   
   background(0);
